@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
 #root,
 html,
 body {
@@ -20,9 +22,9 @@ body {
 }
 
 .card {
-  background: whitesmoke;
+  background: rgba(242, 241, 239, 1);
   width: 40%;
-  height: 20%;
+  height: 25%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -31,12 +33,20 @@ body {
   box-shadow: 10px 10px;
 }
 
+.card:active {
+  animation: rotate 0.3s ease-in-out both;
+}
+
+.card:active span {
+  animation: storm 0.5s ease-in-out both;
+  animation-delay: 0.03s;
+}
+
 .heading {
   display: flex;
   align-items: center;
   height: 582px;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-family: "Rampart One", cursive;
 }
 
 .button {
@@ -50,7 +60,7 @@ body {
   cursor: pointer;
   text-transform: uppercase;
   height: 200px;
-  width: 180px;
+  width: 200px;
   opacity: 1;
   background-color: #becebe;
 
@@ -59,8 +69,8 @@ body {
 
 .button span {
   color: #000000;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
   letter-spacing: 0.7px;
 }
 
@@ -113,5 +123,20 @@ body {
   .card {
     width: 80%;
     height: 30%;
+  }
+}
+
+@media all and (max-width: 812px) {
+  .heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .button {
+    width: 160px;
+  }
+
+  .button span {
+    font-size: 14px;
   }
 }
