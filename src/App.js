@@ -33,6 +33,9 @@ class App extends React.Component {
           <button className="button" onClick={this.fetchAdvice}>
             <span>ANY ADVICE?🤔</span>
           </button>
+          <p className="paragraph">
+            You're gently asked to wait 5 seconds between advices
+          </p>
         </div>
       </div>
     );
