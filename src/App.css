@@ -90,6 +90,7 @@ body {
   font-family: "Rampart One", cursive;
   font-weight: bold;
   color: green;
+  margin-bottom: auto;
 }
 
 @keyframes rotate {
@@ -147,6 +148,26 @@ body {
 
   .button span {
     font-size: 14px;
+  }
+
+  .paragraph {
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .heading {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .button {
+    width: 140px;
+    height: 120px;
+  }
+
+  .button span {
+    font-size: 12px;
   }
 
   .paragraph {
