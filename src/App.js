@@ -34,7 +34,7 @@ class App extends React.Component {
             <span>ANY ADVICE?🤔</span>
           </button>
           <p className="paragraph">
-            You're gently asked to wait 5 seconds between advices
+            (You're gently asked to wait 5 seconds between advices)
           </p>
         </div>
       </div>
