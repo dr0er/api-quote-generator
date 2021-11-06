@@ -129,6 +129,26 @@ body {
   }
 }
 
+@media all and (max-width: 500px) {
+  .heading {
+    font-size: 0.94rem;
+    font-weight: bold;
+  }
+
+  .button {
+    width: 120px;
+    height: 120px;
+  }
+
+  .button span {
+    font-size: 12px;
+  }
+
+  .paragraph {
+    font-size: 10px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .heading {
     font-size: 12px;
@@ -147,25 +167,6 @@ body {
 
   .paragraph {
     font-size: 8px;
-  }
-}
-
-@media all and (max-width: 812px) {
-  .heading {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-
-  .button {
-    width: 160px;
-  }
-
-  .button span {
-    font-size: 14px;
-  }
-
-  .paragraph {
-    font-size: 10px;
   }
 }
 
@@ -194,19 +195,18 @@ body {
   }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 812px) {
   .heading {
-    font-size: 0.94rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
 
   .button {
-    width: 120px;
-    height: 120px;
+    width: 160px;
   }
 
   .button span {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .paragraph {
